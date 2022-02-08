@@ -1,0 +1,89 @@
+button{
+ 
+    margin-bottom: auto;
+    margin: 20px;
+    border: none;
+    width: auto;
+    overflow: visible;
+    line-height: normal;
+  
+  }
+  button.todo-button{
+    margin: 20px;
+    border: none;
+    width:5%;
+    color: lightslategray;
+    overflow: visible;
+    overflow: visible;
+    line-height: normal;
+    border-radius: 12px;
+    border: 2px solid #4CAF50;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.3);
+    
+  
+  }
+  
+  button.Removed{
+    min-width: 50px;
+    min-height: 40px;
+  
+    border-radius: 40px;
+    
+  }
+  
+  li.adding{
+    text-decoration: dashed;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(76, 42, 107);
+    text-indent: 40px;
+    text-emphasis-position: 10px;
+  
+  }
+  li.table,th,td{
+    border:1px solid black;
+    width:2;
+    border-radius: 1%;
+    border-collapse: collapse;
+  
+  
+  }
+  tr{
+    
+    padding: 20px;
+    font-weight: bold;
+  }
+  td{
+      flex: 1;
+      order: 4;
+      padding:20px;
+      font-weight:bold
+  }
+  
+  .center{
+    margin-left: auto;
+    margin-right: auto;
+    text-indent: 20px;
+  }
+  
+  input[type=text]{
+    min-height: 50px;
+    text-shadow: none;
+    text-size-adjust: 2px;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+   
+    border: none;
+    border-bottom: 2px solid burlywood;
+  }
+  
+  p{
+    text-align: center;
+    text-decoration: dashed;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    color: black;
+    font-style: bold;
+    border-radius: 40px;
+  }
